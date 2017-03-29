@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "40K",
+    "name": "Warhammer 40K",
+    "authors": [ "Wulfle" ],
+    "maintainers": [ "Wulfle" ],
+    "description": "Adds elements of the Warhammer 40,000 universe.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]
