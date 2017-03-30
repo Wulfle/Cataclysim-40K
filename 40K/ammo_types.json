@@ -12,7 +12,7 @@
 	"type" : "ammunition_type"
 	},
 	{
-	"id" : "lasshot",
+	"id" : "las",
 	"name" : "las shot",
 	"default" : "las",
 	"type" : "ammunition_type"
