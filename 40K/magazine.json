@@ -122,5 +122,53 @@
 	"ammo_type" : "promethium",
 	"capacity" : 100,
 	"reload_time" : 100
+	},
+	{
+    "id": "laspistol_40",
+    "type": "MAGAZINE",
+    "name": "40-shot laspistol battery pack",
+    "description": "A small battery pack for laspistols.",
+    "weight": 240,
+    "volume": 1,
+    "price": 15000,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "#",
+    "color": "dark_gray",
+    "ammo_type": "las",
+    "capacity": 40,
+    "reload_time": 35,
+    "flags": [ "MAG_COMPACT" ]
+	},
+	{
+    "id": "lasgun_80",
+    "type": "MAGAZINE",
+    "name": "80-shot lasgun battery pack",
+    "description": "A battery pack fit for an Imperial Lasgun. Can hold charge for 80 shots",
+    "weight": 360,
+    "volume": 2,
+    "price": 20000,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "#",
+    "color": "dark_gray",
+    "ammo_type": "las",
+    "capacity": 80,
+    "reload_time": 60,
+    "flags": [ "MAG_COMPACT" ]
+	},
+	{
+    "id": "lasgun_140",
+    "type": "MAGAZINE",
+    "name": "140-shot lasgun battery pack",
+    "description": "A battery pack fit for an Imperial Lasgun. Can hold charge for 140 shots",
+    "weight": 400,
+    "volume": 3,
+    "price": 40000,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "#",
+    "color": "dark_gray",
+    "ammo_type": "las",
+    "capacity": 140,
+    "reload_time": 120,
+    "flags": [ "MAG_COMPACT" ]
 	}
 ]
