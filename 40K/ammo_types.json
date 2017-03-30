@@ -10,5 +10,11 @@
 	"name" : "promethium",
 	"default" : "promethium",
 	"type" : "ammunition_type"
+	},
+	{
+	"id" : "lasshot",
+	"name" : "las shot",
+	"default" : "las",
+	"type" : "ammunition_type"
 	}
 ]
