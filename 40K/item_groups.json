@@ -4,9 +4,14 @@
     "id" : "guns_rifle_milspec",
     "//" : "Military specification rifles only ever found at military sites.",
     "items": [
-	["ceres_pistol", 15],
-	["BoltPistolMag_9", 25],
-	["75bolt", 20]
+	["Godwin_Bolter", 15],
+	["BolterSickleMag_20", 22],
+	["BolterSickleMag_25", 20],
+	["BolterSickleMag_30", 18],
+	["ceres_pistol", 18],
+	["BoltPistolMag_9", 24],
+	["75Bolt", 20],
+	["hellfire_bolt", 20],
     ]
   },
   {
