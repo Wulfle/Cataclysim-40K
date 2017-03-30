@@ -13,7 +13,7 @@
     "material": "steel",
     "symbol": "(",
     "color": "light_gray",
-    "ammo": "bolt",
+    "ammo": "75bolt",
     "skill": "rifle",
 	"burst" : 3,
     "ranged_damage": 8,
@@ -22,7 +22,7 @@
     "loudness": 130,
     "reload": 180,
     "barrel_length": 1,
-    "magazines": [ [ "bolt" , [ "BolterSickleMag_30", "BolterSickleMag_25", "BolterSickleMag_20", "BolterDrumMag_40" , "BolterDrumMag_60" ] ] ]
+    "magazines": [ [ "75bolt" , [ "BolterSickleMag_30", "BolterSickleMag_25", "BolterSickleMag_20", "BolterDrumMag_40" , "BolterDrumMag_60" ] ] ]
 	},
 	{
 	"id" : "ceres_pistol",
@@ -38,7 +38,7 @@
     "material": "steel",
     "symbol": "(",
     "color": "light_gray",
-    "ammo": "bolt",
+    "ammo": "75bolt",
     "skill": "pistol",
     "ranged_damage": 8,
     "dispersion": 15,
@@ -46,7 +46,7 @@
     "loudness": 130,
     "reload": 180,
     "barrel_length": 0,
-    "magazines": [ [ "bolt" , [ "BoltPistolMag_9" ] ] ]
+    "magazines": [ [ "75bolt" , [ "BoltPistolMag_9" ] ] ]
 	},
 	{
 	"id" : "MK3storm_bolter",
@@ -61,7 +61,7 @@
 	"material" : "steel",
 	"symbol" : "(",
 	"color" : "light_gray",
-	"ammo" : "bolt",
+	"ammo" : "75bolt",
 	"skill" : "rifle",
 	"ranged_damage" : 8,
 	"dispersion" : 10,
@@ -73,7 +73,7 @@
 		],
 	"barrel_length" : 0,
 	"magazines" : [
-		[ "bolt" , [ "StormBolterMag_100" ] ]
+		[ "75bolt" , [ "StormBolterMag_100" ] ]
 		]
 	},
 	{

@@ -2,14 +2,8 @@
 	{
     "id": "75bolt",
     "name": "75mm Bolt",
-    "default": "bolt",
+    "default": "75bolt",
     "type": "ammunition_type"
-	},
-	{
-	"id" : "hellfire_bolt",
-	"name" : "Hellfire Bolt",
-	"default" : "bolt",
-	"type" : "ammunition_type"
 	},
 	{
 	"id" : "promethium",
