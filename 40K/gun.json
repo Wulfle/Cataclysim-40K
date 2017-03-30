@@ -124,7 +124,7 @@
     "reload": 80,
     "barrel_length": 3,
     "magazines": [ [ "las" , [ "laspistol_40", "lasgun_80", "lasgun_140" ] ] ]
-	}
+	},
 	{
     "id": "M35_lasgun",
     "type": "GUN",
@@ -175,6 +175,6 @@
     "valid_mod_locations": [ [ "accessories", 1 ], [ "grip", 1 ], [ "sights", 1 ] ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
     "flags": [ "NEVER_JAMS" ],
-    "magazines": [ [ "las" , [ "laspistol_40" ] ]
+    "magazines": [ [ "las" , [ "laspistol_40" ] ] ]
 	}
 ]
