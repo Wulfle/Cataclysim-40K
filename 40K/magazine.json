@@ -10,7 +10,7 @@
     "material": "steel",
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "bolt",
+    "ammo_type": "75bolt",
     "capacity": 9,
     "reliability": 10,
     "reload_time": 120
@@ -26,7 +26,7 @@
     "material": "steel",
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "bolt",
+    "ammo_type": "75bolt",
     "capacity": 20,
     "reliability": 10,
     "reload_time": 200
@@ -42,7 +42,7 @@
     "material": "steel",
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "bolt",
+    "ammo_type": "75bolt",
     "capacity": 25,
     "reliability": 10,
     "reload_time": 250
@@ -58,7 +58,7 @@
     "material": "steel",
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "bolt",
+    "ammo_type": "75bolt",
     "capacity": 30,
     "reliability": 10,
     "reload_time": 280
@@ -74,7 +74,7 @@
 	"material" : "steel",
 	"symbol" : "#",
 	"color" : "light_gray",
-	"ammo_type" : "bolt",
+	"ammo_type" : "75bolt",
 	"capacity" : 40,
 	"reload_time" : 300
 	},
@@ -89,7 +89,7 @@
 	"material" : "steel",
 	"symbol" : "#",
 	"color" : "light_gray",
-	"ammo_type" : "bolt",
+	"ammo_type" : "75bolt",
 	"capacity" : 60,
 	"reload_time" : 300
 	},
@@ -104,7 +104,7 @@
 	"material" : "steel",
 	"symbol" : "#",
 	"color" : "light_gray",
-	"ammo_type" : "bolt",
+	"ammo_type" : "75bolt",
 	"capacity" : 100,
 	"reload_time" : 400
 	},
