@@ -104,5 +104,26 @@
 	"fuel": {
 		"energy": 1
 		}
+	},
+	{
+    "id": "ork_dakka",
+    "type": "AMMO",
+    "name": "dakka",
+    "description": "It's fuel for your orky shootas, loud and made out of random junk, made for a gun with a roughly inch-wide bore.  What marvel of weirdboy magic is this, that so much dakka fits in your backpack at all?",
+    "weight": 50,
+    "volume": 2,
+    "price": 3250,
+    "material": [ "iron", "powder" ],
+    "symbol": "=",
+    "color": "dark_gray",
+    "count": 250,
+    "stack_size": 100,
+    "ammo_type": "ork_dakka",
+    "range": 20,
+    "damage": 120,
+    "pierce": 20,
+    "dispersion": 60,
+    "recoil": 1400,
+    "effects": [ "COOKOFF", "NEVER_MISFIRES" ]
 	}
 ]
