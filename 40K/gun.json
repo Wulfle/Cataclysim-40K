@@ -176,5 +176,55 @@
     "ammo_effects": [ "LASER", "INCENDIARY" ],
     "flags": [ "NEVER_JAMS" ],
     "magazines": [ [ "las" , [ "laspistol_40" ] ] ]
+	},
+	{
+    "id": "shoota",
+    "type": "GUN",
+    "name": "Shoota",
+    "name_plural": "shootas",
+    "description": "A slap-dash, smashed-together weapon that, honestly, should not work. Bashed together with copous amount of alhchol and a hammer. Straingly enough, it seemes to accept any kind of magazing, of the calibre the weapon accepts.",
+    "weight": 18,
+    "volume": 5,
+    "price": 18000,
+    "to_hit": -4,
+    "bashing": 10,
+    "material": "steel",
+    "symbol": "(",
+    "color": "light_gray",
+    "ammo": "ork_dakka",
+    "skill" : "rifle",
+	"modes" : [
+		[ "DEFAULT" , "Single DAKKA", 1],
+		[ "BURST" , "Tripple DAKKA", 3],
+		[ "AUTO" , "DAKKADAKKADAKKA", 10]
+	],
+    "ranged_damage": 6,
+    "dispersion": 14,
+    "durability": 6,
+    "loudness": 200,
+    "reload": 200,
+    "barrel_length": 2,
+	"valid_mod_locations" : [ [ "bore", 1] ],
+    "magazines": [
+		[ "ork_dakka", [ "ob_30", "ob_50", "ob_100" ] ]
+		]
+	},
+	{
+    "id": "ork_shoota_red",
+    "copy-from": "shoota",
+    "type": "TOOL",
+    "name": "red shoota",
+    "description": "Da red ones go fasta!  Oi 'umie, dey mean da vee-heckles wen dey saiz dat!  Mebbe da red paint on da barrel will make da bullets go fasta?",
+    "color": "red",
+    "range": 30,
+    "ranged_damage": 25,
+    "dispersion": 750,
+    "reload": 200,
+    "//": "Ohgod make the dakka stahp plz.",
+    "modes": [
+      [ "DEFAULT", "moar dakka", 50 ],
+      [ "AUTO", "MOAR ZOGGIN' DAKKA!", 100 ]
+    ],
+    "techniques": [ "RAPID" ]
 	}
 ]
