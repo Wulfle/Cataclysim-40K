@@ -1,0 +1,7 @@
+[
+	{
+	"type" : "SPECIES",
+	"id" : "TYRANID",
+	"fear_triggers" : ["HURT", "FIRE", "FRIEND_DIED"]
+    }
+]

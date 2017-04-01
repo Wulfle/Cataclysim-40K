@@ -1,0 +1,13 @@
+[
+	{
+	"type":"monstergroup",
+	"name" : "GROUP_NID",
+	"default" : "tyranids",
+	"monsters" : [
+	{ "monster" : "hgaunt", "freq" : 2, "cost_multiplier": 5, "pack_size": [15,20]}
+	],
+	"replace_monster_group" : true,
+	"new_monster_group_id" : "GROUP_NID_SMALL",
+	"replacement_time" : 14, "//" : "(replacement_time * difficulty)DAYS *(SEASON_LENGTH / 14)"
+	}
+]

@@ -120,8 +120,8 @@
 	"symbol" : "#",
 	"color" : "light_gray",
 	"ammo_type" : "promethium",
-	"capacity" : 100,
-	"reload_time" : 100
+	"capacity" : 250,
+	"reload_time" : 200
 	},
 	{
     "id": "laspistol_40",
