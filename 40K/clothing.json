@@ -27,7 +27,7 @@
     "to_hit": -8,
     "bashing": 0,
     "material": [ "leather", "gold" ],
-    "symbol": "[",
+    "symbol": "^",
     "color": "grey",
     "covers": [ "HEAD" ],
     "coverage": 50,

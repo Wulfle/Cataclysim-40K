@@ -2,7 +2,7 @@
 	{
 	"type":"monstergroup",
 	"name" : "GROUP_NID",
-	"default" : "mon_nid",
+	"default" : "tyranids",
 	"monsters" : [
 	{ "monster" : "hgaunt", "freq" : 2, "cost_multiplier": 5, "pack_size": [15,20]}
 	],
