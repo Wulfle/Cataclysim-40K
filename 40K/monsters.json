@@ -39,7 +39,7 @@
 	},
 	{
 	"type" : "MONSTER",
-	"id" : "geasetealer",
+	"id" : "geansetealer",
 	"name" : "Genestealer",
 	"species" :"TYRANID",
 	"default_faction" : "tyranids",
@@ -110,6 +110,43 @@
 		], 
 	"description":"A towering beast, covered in thick plates of heavy chitin. It's muscles ripple beneath it's tough hide.",
 	"flags" : [ "ATTACKMON", "BADVENOM", "BASHES", "BLEED", "CHITIN", "CLIMBS", "GOODHEARING", "GROUP_BASH", "GROUP_MORALE", "HEARS", "KEENNOSE", "POISON", "REGEN_MORALE", "SEES", "SMELLS", "SWARMS"],
+	"anger_triggers":[ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "MEAT", "PLAYER_CLOSE", "PLAYER_WEAK", "STALK" ]
+	},
+	{
+	"type" : "MONSTER",
+	"id" : "tyn_ripper",
+	"name" : "Ripper",
+	"species" :"TYRANID",
+	"default_faction" : "tyranids",
+	"symbol" : "r",
+	"color" : "purple",
+	"size" : "SMALL",
+	"material" : "flesh",
+	"diff" : 4,
+	"aggression" : 100,
+	"morale" : 80,
+	"speed" : 180,
+	"melee_skill" : 2,
+	"melee_dice" : 1,
+	"melee_dice_sides" : 3,
+	"melee_cut" : 3,
+	"dodge" : 8,
+	"armor_bash" : 5,
+	"armor_cut" : 4,
+	"armor_stab" : 2,
+	"armor_fire" : 1,
+	"vision_day" : 75,
+	"vision_night" : 50,
+	"item_chance" : 0,
+	"luminance" : 0,
+	"hp" : 10,
+	"special_freq":[0],
+	"death_function" : "NORMAL",
+	"special_attack":[
+		{ "type" : "leap", "cooldown" : 15, "max_range" : 8 }
+	], 
+	"description":"Very small but incredably adgile. A small snake-like creature that slithers along the ground at astonishing speed.",
+	"flags" : [ "ATTACKMON", "BADVENOM", "BASHES", "BLEED", "CHITIN", "CLIMBS", "GOODHEARING", "GROUP_BASH", "GROUP_MORALE", "HEARS", "HIT_AND_RUN", "KEENNOSE", "POISON", "REGEN_MORALE", "SEES", "SMELLS", "SWARMS"],
 	"anger_triggers":[ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "MEAT", "PLAYER_CLOSE", "PLAYER_WEAK", "STALK" ]
 	}
 ]
