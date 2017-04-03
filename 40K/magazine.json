@@ -2,7 +2,7 @@
 	{
     "id": "BoltPistolMag_9",
     "type": "MAGAZINE",
-    "name": "Bolt Pistol Magazine",
+    "name": "9-Round Bolt Pistol Magazine",
     "description": "A 9-round magazine for a Bolt Pistol.",
     "weight": 100,
     "volume": 2,

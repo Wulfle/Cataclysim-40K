@@ -148,5 +148,143 @@
 	"description":"Very small but incredably adgile. A small snake-like creature that slithers along the ground at astonishing speed.",
 	"flags" : [ "ATTACKMON", "BADVENOM", "BASHES", "BLEED", "CHITIN", "CLIMBS", "GOODHEARING", "GROUP_BASH", "GROUP_MORALE", "HEARS", "HIT_AND_RUN", "KEENNOSE", "POISON", "REGEN_MORALE", "SEES", "SMELLS", "SWARMS"],
 	"anger_triggers":[ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "MEAT", "PLAYER_CLOSE", "PLAYER_WEAK", "STALK" ]
+	},
+	{
+	"type" : "MONSTER",
+	"id" : "ork_boy",
+	"name" : "Ork Boy",
+	"species" :"ORK",
+	"default_faction" : "orks",
+	"symbol" : "O",
+	"color" : "green",
+	"size" : "MEDIUM",
+	"material" : "flesh",
+	"diff" : 10,
+	"aggression" : 80,
+	"morale" : 75,
+	"speed" : 80,
+	"melee_skill" : 5,
+	"melee_dice" : 3,
+	"melee_dice_sides" : 4,
+	"melee_cut" : 5,
+	"dodge" : 3,
+	"armor_bash" : 5,
+	"armor_cut" : 5,
+	"armor_stab" : 3,
+	"armor_fire" : 2,
+	"vision_day" : 75,
+	"vision_night" : 30,
+	"item_chance" : 0,
+	"luminance" : 0,
+	"hp" : 30,
+	"special_freq":[0],
+	"death_function" : "NORMAL",
+    "starting_ammo": { "ork_dakka": 100 },
+	"special_attacks": [
+	{
+		"type": "gun",
+		"cooldown": 2,
+		"gun_type": "shoota",
+		"ranges": [
+			[ 0, 20, "AUTO" ],
+			[ 21, 40, "DEFAULT" ]
+		]
+		}
+	], 
+	"description":"A huge green-skinned, foul-smelling humanoid. His teeth look quite sharp.",
+	"flags" : [ "ATTACKMON", "BASHES", "GROUP_BASH", "GROUP_MORALE", "HEARS", "POISON", "REGEN_MORALE", "SEES", "SMELLS", "SWARMS"],
+	"anger_triggers":[ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "MEAT", "PLAYER_CLOSE", "PLAYER_WEAK", "STALK" ]
+	},
+	{
+	"type" : "MONSTER",
+	"id" : "ork_ardboy",
+	"name" : "'Ard Boy",
+	"species" :"ORK",
+	"default_faction" : "orks",
+	"symbol" : "A",
+	"color" : "green",
+	"size" : "MEDIUM",
+	"material" : "flesh",
+	"diff" : 12,
+	"aggression" : 100,
+	"morale" : 85,
+	"speed" : 75,
+	"melee_skill" : 6,
+	"melee_dice" : 4,
+	"melee_dice_sides" : 6,
+	"melee_cut" : 6,
+	"dodge" : 2,
+	"armor_bash" : 8,
+	"armor_cut" : 8,
+	"armor_stab" : 6,
+	"armor_fire" : 3,
+	"vision_day" : 60,
+	"vision_night" : 20,
+	"item_chance" : 0,
+	"luminance" : 0,
+	"hp" : 50,
+	"special_freq":[0],
+	"death_function" : "NORMAL",
+    "starting_ammo": { "ork_dakka": 100 },
+	"special_attacks": [
+	{
+		"type": "gun",
+		"cooldown": 2,
+		"gun_type": "shoota",
+		"ranges": [
+			[ 0, 20, "AUTO" ],
+			[ 21, 40, "DEFAULT" ]
+		]
+		}
+	], 
+	"description":"A huge green-skinned humanoid with metal plates welded to it's body in a rough aproximation of armor.",
+	"flags" : [ "ATTACKMON", "BASHES", "GROUP_BASH", "GROUP_MORALE", "HEARS", "POISON", "REGEN_MORALE", "SEES", "SMELLS", "SWARMS"],
+	"anger_triggers":[ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "MEAT", "PLAYER_CLOSE", "PLAYER_WEAK", "STALK" ]
+	},
+	{
+	"type" : "MONSTER",
+	"id" : "ork_nob",
+	"name" : "Ork Nob",
+	"species" :"ORK",
+	"default_faction" : "orks",
+	"symbol" : "O",
+	"color" : "green",
+	"size" : "MEDIUM",
+	"material" : "flesh",
+	"diff" : 13,
+	"aggression" : 100,
+	"morale" : 85,
+	"speed" : 70,
+	"melee_skill" : 7,
+	"melee_dice" : 5,
+	"melee_dice_sides" : 4,
+	"melee_cut" : 7,
+	"dodge" : 3,
+	"armor_bash" : 10,
+	"armor_cut" : 10,
+	"armor_stab" : 5,
+	"armor_fire" : 4,
+	"vision_day" : 60,
+	"vision_night" : 20,
+	"item_chance" : 0,
+	"luminance" : 0,
+	"hp" : 60,
+	"special_freq":[0],
+	"death_function" : "NORMAL",
+    "starting_ammo": { "ork_dakka": 100 },
+	"special_attacks": [
+	{
+		"type": "gun",
+		"cooldown": 2,
+		"gun_type": "big_shoota",
+		"ranges": [
+			[ 0, 20, "AUTO" ],
+			[ 21, 40, "DEFAULT" ]
+		]
+		}
+	], 
+	"description":"An Ork that's much bigger then the others. He's helding a bigger gun too...",
+	"flags" : [ "ATTACKMON", "BASHES", "GROUP_BASH", "GROUP_MORALE", "HEARS", "POISON", "REGEN_MORALE", "SEES", "SMELLS", "SWARMS"],
+	"anger_triggers":[ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "MEAT", "PLAYER_CLOSE", "PLAYER_WEAK", "STALK" ]
 	}
 ]

@@ -292,10 +292,7 @@
       { "monster" : "mon_worm", "freq" :  1, "cost_multiplier" : 0, "starts" : 336, "conditions" : ["SPRING", "SUMMER", "AUTUMN"] },
       { "monster" : "mon_worm", "freq" :  1, "cost_multiplier" : 0, "starts" : 504, "conditions" : ["SPRING", "SUMMER", "AUTUMN"] },
       { "monster" : "mon_worm", "freq" :  1, "cost_multiplier" : 0, "starts" : 672, "conditions" : ["SPRING", "SUMMER", "AUTUMN"] },
-      { "monster" : "mon_bear_smoky", "freq" :  1, "cost_multiplier" : 0, "starts" : 672, "conditions" : ["SPRING", "SUMMER", "AUTUMN"] },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_bear_smoky", "freq" :  1, "cost_multiplier" : 0, "starts" : 672, "conditions" : ["SPRING", "SUMMER", "AUTUMN"] }
     ]
   },{
     "type":"monstergroup",
@@ -320,10 +317,7 @@
       { "monster" : "mon_zombie_pig", "freq" :  10, "cost_multiplier" : 25, "starts" : 2160, "pack_size" : [1,5] },
       { "monster" : "mon_giant_cockroach", "freq" :  10, "cost_multiplier" : 1, "pack_size" : [1,5] },
       { "monster" : "mon_pregnant_giant_cockroach", "freq" :  1, "cost_multiplier" : 3},
-      { "monster" : "mon_giant_cockroach_nymph", "freq" :  5, "cost_multiplier" : 1},
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_giant_cockroach_nymph", "freq" :  5, "cost_multiplier" : 1}
     ]
   },{
     "type":"monstergroup",
@@ -379,10 +373,7 @@
       { "monster" : "mon_fish_pickerel", "freq" :  15, "cost_multiplier" : 10, "pack_size" : [1,3] },
       { "monster" : "mon_fish_pickerel", "freq" :  20, "cost_multiplier" : 10, "conditions" : ["DAWN", "DUSK"], "pack_size" : [1,3] },
       { "monster" : "mon_fish_blinky", "freq": 5, "cost_multiplier": 3, "pack_size": [1, 3] },
-      { "monster" : "mon_bear_smoky", "freq" :  1, "cost_multiplier" : 0, "starts" : 672, "conditions" : ["SPRING", "SUMMER", "AUTUMN"] },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_bear_smoky", "freq" :  1, "cost_multiplier" : 0, "starts" : 672, "conditions" : ["SPRING", "SUMMER", "AUTUMN"] }
     ]
   },{
     "type":"monstergroup",
@@ -392,10 +383,7 @@
       { "monster" : "mon_bat", "freq" : 600, "cost_multiplier" : 5, "pack_size" : [6,32] },
       { "monster" : "mon_bear", "freq" : 100, "cost_multiplier" : 10, "pack_size" : [1,3] },
       { "monster" : "mon_cougar", "freq" : 100, "cost_multiplier" : 20, "pack_size" : [1,2] },
-      { "monster" : "mon_bear_smoky", "freq" :  100, "cost_multiplier" : 0, "starts" : 672 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_bear_smoky", "freq" :  100, "cost_multiplier" : 0, "starts" : 672 }
     ]
   },{
     "type":"monstergroup",
@@ -404,10 +392,7 @@
     "monsters" : [
       { "monster" : "mon_ant_larva", "freq" : 40, "cost_multiplier" : 0 },
       { "monster" : "mon_ant_soldier", "freq" : 90, "cost_multiplier" : 5 },
-      { "monster" : "mon_ant_queen", "freq" : 0, "cost_multiplier" : 0 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_ant_queen", "freq" : 0, "cost_multiplier" : 0 }
     ]
   },{
     "type":"monstergroup",
@@ -416,10 +401,7 @@
     "monsters" : [
       { "monster" : "mon_giant_cockroach", "freq" : 40, "cost_multiplier" : 0 },
       { "monster" : "mon_pregnant_giant_cockroach", "freq" : 5, "cost_multiplier" : 2 },
-      { "monster" : "mon_giant_cockroach_nymph", "freq" : 20, "cost_multiplier" : 0 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_giant_cockroach_nymph", "freq" : 20, "cost_multiplier" : 0 }
     ]
   },{
     "type":"monstergroup",
@@ -433,10 +415,7 @@
     "default" : "mon_worm",
     "monsters" : [
       { "monster" : "mon_graboid", "freq" : 30, "cost_multiplier" : 20 },
-      { "monster" : "mon_halfworm", "freq" : 0, "cost_multiplier" : 0 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_halfworm", "freq" : 0, "cost_multiplier" : 0 }
     ]
   },{
     "type":"monstergroup",
@@ -487,9 +466,13 @@
       { "monster" : "mon_zombie_technician", "freq" : 1, "cost_multiplier" : 12},
       { "monster" : "mon_zombie_brute_shocker", "freq" : 5, "cost_multiplier" : 40 },
       { "monster" : "mon_zombie_runner", "freq" : 20, "cost_multiplier" : 5, "pack_size": [1,4] },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+	{ "monster" : "hgaunt", "freq" : 10, "cost_multiplier": 5, "pack_size": [12,16]},
+	{ "monster" : "geansetealer", "freq" : 5, "cost_multiplier" : 8, "pack_size" : [8,12]},
+	{ "monster" : "tyn_warrior", "freq" : 3, "cost_multiplier" : 14, "pack_size" : [1,2]},
+	{ "monster" : "tyn_ripper", "freq" : 12, "cost_multiplier" : 2, "pack_size" : [20,40]},
+	{ "monster" : "ork_boy", "freq" : 15, "cost_multiplier": 5, "pack_size": [4,6,8]},
+	{ "monster" : "ork_ardboy", "freq" : 10, "cost_multiplier" : 8, "pack_size" : [4,8,12]},
+	{ "monster" : "ork_nob", "freq" : 8, "cost_multiplier" : 14, "pack_size" : [6,10]}
     ],
     "replace_monster_group" : true,
     "new_monster_group_id" : "GROUP_ZOMBIE_MID",
@@ -503,10 +486,7 @@
       { "monster" : "mon_fungal_fighter", "freq" : 160, "cost_multiplier" : 0 },
       { "monster" : "mon_vinebeast", "freq" : 160, "cost_multiplier" : 10 },
       { "monster" : "mon_triffid_queen", "freq" : 60, "cost_multiplier" : 0 },
-      { "monster" : "mon_triffid_heart", "freq" : 0, "cost_multiplier" : 0 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_triffid_heart", "freq" : 0, "cost_multiplier" : 0 }
     ]
   },{
     "type":"monstergroup",
@@ -518,10 +498,7 @@
       { "monster" : "mon_zombie_fungus", "freq" : 0, "cost_multiplier" : 0 },
       { "monster" : "mon_boomer_fungus", "freq" : 0, "cost_multiplier" : 0 },
       { "monster" : "mon_fungal_wall", "freq" : 0, "cost_multiplier" : 0 },
-      { "monster" : "mon_fungaloid_queen", "freq" : 0, "cost_multiplier" : 0 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_fungaloid_queen", "freq" : 0, "cost_multiplier" : 0 }
     ]
   },{
     "type":"monstergroup",
@@ -533,10 +510,7 @@
       { "monster" : "mon_zombie_fungus", "freq" : 75, "cost_multiplier" : 0 },
       { "monster" : "mon_boomer_fungus", "freq" : 50, "cost_multiplier" : 0 },
       { "monster" : "mon_fungal_hedgerow", "freq" : 0, "cost_multiplier" : 0 },
-      { "monster" : "mon_fungaloid_tower", "freq" : 0, "cost_multiplier" : 0 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_fungaloid_tower", "freq" : 0, "cost_multiplier" : 0 }
     ]
   },{
     "type":"monstergroup",
@@ -547,10 +521,7 @@
       { "monster" : "mon_fungaloid_young", "freq" : 50, "cost_multiplier" : 0 },
       { "monster" : "mon_zombie_fungus", "freq" : 100, "cost_multiplier" : 0 },
       { "monster" : "mon_boomer_fungus", "freq" : 50, "cost_multiplier" : 0 },
-      { "monster" : "mon_fungaloid_seeder", "freq" : 0, "cost_multiplier" : 0 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_fungaloid_seeder", "freq" : 0, "cost_multiplier" : 0 }
     ]
   },{
     "type":"monstergroup",
@@ -562,20 +533,14 @@
       { "monster" : "mon_blob", "freq" : 5, "cost_multiplier" : 3, "pack_size" : [5,10] },
       { "monster" : "mon_blob_large", "freq" : 5, "cost_multiplier" : 6, "pack_size" : [5,10] },
       { "monster" : "mon_blob_brain", "freq" : 1, "cost_multiplier" : 10 },
-      { "monster" : "mon_shoggoth", "freq" : 1, "cost_multiplier" : 10 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_shoggoth", "freq" : 1, "cost_multiplier" : 10 }
     ]
    },{
      "type" : "monstergroup",
      "name" : "GROUP_RAZORCLAW",
      "default" : "mon_razorclaw",
      "monsters" : [
-      { "monster" : "mon_razorclaw", "freq" : 33, "cost_multiplier" : 0, "pack_size" : [1,2]},
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_razorclaw", "freq" : 33, "cost_multiplier" : 0, "pack_size" : [1,2]}
    ]
   },{
     "type":"monstergroup",
@@ -583,10 +548,7 @@
     "default" : "mon_chud",
     "monsters" : [
       { "monster" : "mon_one_eye", "freq" : 90, "cost_multiplier" : 0 },
-      { "monster" : "mon_crawler", "freq" : 35, "cost_multiplier" : 0 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_crawler", "freq" : 35, "cost_multiplier" : 0 }
     ]
   },{
     "type":"monstergroup",
@@ -597,10 +559,7 @@
       { "monster" : "mon_sewer_snake", "freq" : 240, "cost_multiplier" : 0 },
       { "monster" : "mon_sewer_rat", "freq" : 100, "cost_multiplier" : 0, "pack_size" : [3,12] },
       { "monster" : "mon_albino_penguin", "freq" : 10, "cost_multiplier" : 5, "pack_size" : [3,9] },
-      { "monster" : "mon_gator", "freq" : 40, "cost_multiplier" : 2, "pack_size" : [1,2] },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_gator", "freq" : 40, "cost_multiplier" : 2, "pack_size" : [1,2] }
     ]
   },{
     "type":"monstergroup",
@@ -868,10 +827,7 @@
       { "monster" : "mon_giant_crayfish", "freq" :  4, "cost_multiplier" : 0, "starts" : 720, "conditions" : ["DUSK", "NIGHT", "DAWN", "SPRING", "SUMMER", "AUTUMN"] },
       { "monster" : "mon_giant_crayfish", "freq" :  1, "cost_multiplier" : 0, "starts" : 792, "conditions" : ["SPRING", "SUMMER", "AUTUMN"] },
       { "monster" : "mon_giant_crayfish", "freq" :  4, "cost_multiplier" : 0, "starts" : 792, "conditions" : ["DUSK", "NIGHT", "DAWN", "SPRING", "SUMMER", "AUTUMN"] },
-      { "monster" : "mon_bear_smoky", "freq" :  1, "cost_multiplier" : 0, "starts" : 672, "conditions" : ["SPRING", "SUMMER", "AUTUMN"] },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_bear_smoky", "freq" :  1, "cost_multiplier" : 0, "starts" : 672, "conditions" : ["SPRING", "SUMMER", "AUTUMN"] }
     ]
   },{
     "type":"monstergroup",
@@ -886,10 +842,7 @@
       { "monster" : "mon_skitterbot", "freq" : 1, "cost_multiplier" : 0, "pack_size" : [8,12] },
       { "monster" : "mon_zombie_hazmat", "freq" : 100, "cost_multiplier" : 0},
       { "monster" : "mon_zombie_bio_op", "freq" : 50, "cost_multiplier" : 5},
-      { "monster" : "mon_zombie_armored", "freq" : 5, "cost_multiplier" : 5},
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_zombie_armored", "freq" : 5, "cost_multiplier" : 5}
     ]
   },{
     "type":"monstergroup",
@@ -903,10 +856,7 @@
       { "monster" : "mon_skitterbot", "freq" : 145, "cost_multiplier" : 0, "pack_size" : [2,3] },
       { "monster" : "mon_zombie_hazmat", "freq" : 100, "cost_multiplier" : 0},
       { "monster" : "mon_zombie_bio_op", "freq" : 50, "cost_multiplier" : 5},
-      { "monster" : "mon_zombie_armored", "freq" : 5, "cost_multiplier" : 5},
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_zombie_armored", "freq" : 5, "cost_multiplier" : 5}
     ]
   },{
     "type":"monstergroup",
@@ -921,10 +871,7 @@
       { "monster" : "mon_flaming_eye", "freq" : 120, "cost_multiplier" : 0 },
       { "monster" : "mon_kreck", "freq" : 210, "cost_multiplier" : 0 },
       { "monster" : "mon_gozu", "freq" : 25, "cost_multiplier" : 0 },
-      { "monster" : "mon_shoggoth", "freq" : 5, "cost_multiplier" : 0 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_shoggoth", "freq" : 5, "cost_multiplier" : 0 }
     ]
   },{
     "type":"monstergroup",
@@ -932,10 +879,7 @@
     "default" : "mon_human_snail",
     "monsters" : [
       { "monster" : "mon_twisted_body", "freq" : 180, "cost_multiplier" : 0 },
-      { "monster" : "mon_vortex", "freq" : 80, "cost_multiplier" : 0 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_vortex", "freq" : 80, "cost_multiplier" : 0 }
     ]
   },{
     "type":"monstergroup",
@@ -947,10 +891,7 @@
       { "monster" : "mon_zombie_tough", "freq" : 100, "cost_multiplier": 0},
       { "monster" : "mon_zombie_rot", "freq" : 60, "cost_multiplier": 0},
       { "monster" : "mon_zombie_dog", "freq" : 50, "cost_multiplier" : 0},
-      { "monster" : "mon_zombie_crawler", "freq" : 30, "cost_multiplier": 0},
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_zombie_crawler", "freq" : 30, "cost_multiplier": 0}
     ]
   },{
     "type":"monstergroup",
@@ -969,10 +910,7 @@
       { "monster" : "mon_molebot", "freq" : 40, "cost_multiplier" : 0 },
       { "monster" : "mon_tripod", "freq" : 110, "cost_multiplier" : 0 },
       { "monster" : "mon_chickenbot", "freq" : 60, "cost_multiplier" : 0 },
-      { "monster" : "mon_tankbot", "freq" : 20, "cost_multiplier" : 0 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_tankbot", "freq" : 20, "cost_multiplier" : 0 }
     ]
   },{
     "type":"monstergroup",
@@ -980,10 +918,7 @@
     "default" : "mon_turret",
     "monsters" : [
       { "monster" : "mon_turret_rifle", "freq" : 300, "cost_multiplier" : 1 },
-      { "monster" : "mon_turret_bmg", "freq" : 50, "cost_multiplier" : 2 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_turret_bmg", "freq" : 50, "cost_multiplier" : 2 }
     ]
   },{
     "type":"monstergroup",
@@ -1020,10 +955,7 @@
       { "monster" : "mon_zombie_brute", "freq" : 10, "cost_multiplier" : 15 },
       { "monster" : "mon_zombie_hulk", "freq" : 1, "cost_multiplier" : 50 },
       { "monster" : "mon_zombie_master", "freq" : 1, "cost_multiplier" : 25 },
-      { "monster" : "mon_zombie_brute_shocker", "freq" : 1, "cost_multiplier" : 45 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_zombie_brute_shocker", "freq" : 1, "cost_multiplier" : 45 }
     ]
   },{
     "type":"monstergroup",
@@ -1056,10 +988,7 @@
       { "monster" : "mon_boomer", "freq" : 30, "cost_multiplier" : 7 },
       { "monster" : "mon_zombie_brute", "freq" : 10, "cost_multiplier" : 15 },
       { "monster" : "mon_zombie_hulk", "freq" : 1, "cost_multiplier" : 50 },
-      { "monster" : "mon_zombie_master", "freq" : 1, "cost_multiplier" : 25 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_zombie_master", "freq" : 1, "cost_multiplier" : 25 }
     ]
   },{
     "type":"monstergroup",
@@ -1067,10 +996,7 @@
     "default" : "mon_zombie",
     "monsters" : [
       { "monster" : "mon_zombie_smoker", "freq" : 180, "cost_multiplier" : 0 },
-      { "monster" : "mon_zombie_survivor", "freq" : 400, "cost_multiplier" : 0 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_zombie_survivor", "freq" : 400, "cost_multiplier" : 0 }
     ]
   },{
     "type":"monstergroup",
@@ -1104,10 +1030,7 @@
       { "monster" : "mon_boomer", "freq" : 30, "cost_multiplier" : 7 },
       { "monster" : "mon_zombie_brute", "freq" : 10, "cost_multiplier" : 15 },
       { "monster" : "mon_zombie_hulk", "freq" : 1, "cost_multiplier" : 50 },
-      { "monster" : "mon_zombie_master", "freq" : 1, "cost_multiplier" : 25 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_zombie_master", "freq" : 1, "cost_multiplier" : 25 }
     ]
   },{
     "type":"monstergroup",
@@ -1143,10 +1066,7 @@
       { "monster" : "mon_zombie_brute", "freq" : 10, "cost_multiplier" : 15 },
       { "monster" : "mon_zombie_hulk", "freq" : 1, "cost_multiplier" : 50 },
       { "monster" : "mon_zombie_master", "freq" : 1, "cost_multiplier" : 25 },
-      { "monster" : "mon_zombie_brute_shocker", "freq" : 6, "cost_multiplier" : 26 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_zombie_brute_shocker", "freq" : 6, "cost_multiplier" : 26 }
     ]
   },{
     "type":"monstergroup",
@@ -1182,10 +1102,7 @@
       { "monster" : "mon_boomer_huge", "freq" : 20, "cost_multiplier" : 5 },
       { "monster" : "mon_zombie_brute", "freq" : 10, "cost_multiplier" : 15 },
       { "monster" : "mon_zombie_hulk", "freq" : 1, "cost_multiplier" : 50 },
-      { "monster" : "mon_zombie_master", "freq" : 1, "cost_multiplier" : 25 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_zombie_master", "freq" : 1, "cost_multiplier" : 25 }
     ]
   },{
     "type":"monstergroup",
@@ -1194,10 +1111,7 @@
     "monsters" : [
       { "monster" : "mon_zombie_soldier", "freq" : 35, "cost_multiplier" : 1 },
       { "monster" : "mon_zombie_grenadier", "freq" : 10, "cost_multiplier" : 50 },
-      { "monster" : "mon_zombie_grenadier_elite", "freq" : 5, "cost_multiplier" : 80 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_zombie_grenadier_elite", "freq" : 5, "cost_multiplier" : 80 }
     ]
   },{
     "type":"monstergroup",
@@ -1220,10 +1134,7 @@
       { "monster" : "mon_zombie_brute", "freq" : 20, "cost_multiplier" : 15 },
       { "monster" : "mon_zombie_hulk", "freq" : 1, "cost_multiplier" : 50 },
       { "monster" : "mon_zombie_master", "freq" : 1, "cost_multiplier" : 25 },
-      { "monster" : "mon_zombie_brute_shocker", "freq" : 8, "cost_multiplier" : 28 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_zombie_brute_shocker", "freq" : 8, "cost_multiplier" : 28 }
     ]
   },{
     "type":"monstergroup",
@@ -1239,10 +1150,7 @@
       { "monster" : "mon_dog_skeleton", "freq" : 3, "cost_multiplier" : 5 },
       { "monster" : "mon_zombie_child", "freq" : 8, "cost_multiplier" : 0 },
       { "monster" : "mon_skeleton", "freq" : 10, "cost_multiplier" : 5 },
-      { "monster" : "mon_zombie_shrieker", "freq" : 10, "cost_multiplier" : 5 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_zombie_shrieker", "freq" : 10, "cost_multiplier" : 5 }
     ]
   },{
     "type":"monstergroup",
@@ -1250,10 +1158,7 @@
     "default" : "mon_zombie_gasbag",
     "monsters" : [
       { "monster" : "mon_zombie_gasbag", "freq" : 20, "cost_multiplier": 0},
-      { "monster" : "mon_boomer", "freq" : 40, "cost_multiplier": 2},
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_boomer", "freq" : 40, "cost_multiplier": 2}
     ]
   },{
     "type":"monstergroup",
@@ -1261,10 +1166,7 @@
     "default" : "mon_zombie_grappler",
     "monsters" : [
       { "monster" : "mon_zombie_grappler", "freq" : 40, "cost_multiplier": 0},
-      { "monster" : "mon_zombie_biter", "freq" : 40, "cost_multiplier": 2},
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_zombie_biter", "freq" : 40, "cost_multiplier": 2}
     ]
     },{
     "type":"monstergroup",
@@ -1274,10 +1176,7 @@
     "monsters" : [
       { "monster" : "mon_zombie_brute_grappler", "freq" : 33, "cost_multiplier" : 10 },
       { "monster" : "mon_zombie_brute_ninja", "freq" : 16, "cost_multiplier" : 10 },
-      { "monster" : "mon_zombie_hulk", "freq" : 1, "cost_multiplier" : 50 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_zombie_hulk", "freq" : 1, "cost_multiplier" : 50 }
     ]
     },{
     "type":"monstergroup",
@@ -1303,10 +1202,7 @@
       { "monster" : "mon_zombie_master", "freq" : 1, "cost_multiplier" : 30 },
       { "monster" : "mon_zombie_corrosive", "freq" : 10, "cost_multiplier" : 7 },
       { "monster" : "mon_zombie_hollow", "freq" : 2, "cost_multiplier" : 10 },
-      { "monster" : "mon_zombie_predator", "freq" : 5, "cost_multiplier" : 10 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_zombie_predator", "freq" : 5, "cost_multiplier" : 10 }
     ]
   },{
     "type":"monstergroup",
@@ -1319,10 +1215,7 @@
       { "monster" : "mon_zombie_shriekling", "freq" : 30, "cost_multiplier" : 7 },
       { "monster" : "mon_zombie_creepy", "freq" : 5, "cost_multiplier" : 7 },
       { "monster" : "mon_zombie_snotgobbler", "freq" : 30, "cost_multiplier" : 5 },
-      { "monster" : "mon_zombie_waif", "freq" : 20, "cost_multiplier" : 7 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_zombie_waif", "freq" : 20, "cost_multiplier" : 7 }
     ]
   },{
     "type":"monstergroup",
@@ -1339,10 +1232,7 @@
       { "monster": "mon_zombie_shriekling", "freq": 5, "cost_multiplier": 5 },
       { "monster": "mon_zombie_creepy", "freq": 5, "cost_multiplier": 3 },
       { "monster": "mon_zombie_snotgobbler", "freq": 5, "cost_multiplier": 3 },
-      { "monster": "mon_zombie_waif", "freq": 5, "cost_multiplier": 3 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster": "mon_zombie_waif", "freq": 5, "cost_multiplier": 3 }
     ]
   },{
     "type":"monstergroup",
@@ -1375,10 +1265,7 @@
       { "monster" : "mon_horse", "freq" : 1, "cost_multiplier" : 1 },
       { "monster" : "mon_pig", "freq" : 1, "cost_multiplier" : 1 },
       { "monster" : "mon_sheep", "freq" : 1, "cost_multiplier" : 1 },
-      { "monster" : "mon_lemming", "freq" : 1, "cost_multiplier" : 1 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_lemming", "freq" : 1, "cost_multiplier" : 1 }
     ]
   },{
     "type":"monstergroup",
@@ -1387,10 +1274,7 @@
     "monsters" : [
       { "monster" : "mon_zombie_electric", "freq" : 55, "cost_multiplier": 4, "pack_size": [1,2]},
       { "monster" : "mon_zombie_technician", "freq" : 50, "cost_multiplier": 5, "pack_size": [2,4]},
-      { "monster" : "mon_zombie_tough", "freq" : 25, "cost_multiplier" : 0},
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_zombie_tough", "freq" : 25, "cost_multiplier" : 0}
     ]
   },{
     "type":"monstergroup",
@@ -1400,10 +1284,7 @@
       { "monster" : "mon_zombie_brute_shocker", "freq" : 100, "cost_multiplier" : 2, "pack_size": [1,2]},
       { "monster" : "mon_zombie_electric", "freq" : 55, "cost_multiplier": 4, "pack_size": [1,2]},
       { "monster" : "mon_zombie_technician", "freq" : 50, "cost_multiplier": 5, "pack_size": [2,4]},
-      { "monster" : "mon_zombie_tough", "freq" : 25, "cost_multiplier" : 0},
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_zombie_tough", "freq" : 25, "cost_multiplier" : 0}
     ]
   },{
     "type"    : "monstergroup",
@@ -1438,10 +1319,7 @@
       { "monster" : "mon_fish_whitefish", "freq" :  55, "cost_multiplier" : 2, "conditions" : ["DAWN", "DUSK"], "pack_size" : [1,3] },
       { "monster" : "mon_fish_pickerel", "freq" :  15, "cost_multiplier" : 10, "pack_size" : [1,3] },
       { "monster" : "mon_fish_pickerel", "freq" :  20, "cost_multiplier" : 10, "conditions" : ["DAWN", "DUSK"], "pack_size" : [1,3] },
-      { "monster" : "mon_fish_blinky", "freq": 5, "cost_multiplier": 3, "pack_size": [1, 3] },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_fish_blinky", "freq": 5, "cost_multiplier": 3, "pack_size": [1, 3] }
     ]
   },{
     "type":"monstergroup",
@@ -1492,10 +1370,7 @@
       { "monster" : "mon_zombie_technician", "freq" : 10, "cost_multiplier" : 6},
       { "monster" : "mon_zombie_brute_shocker", "freq" : 10, "cost_multiplier" : 20 },
       { "monster" : "mon_zombie_hollow", "freq" : 2, "cost_multiplier" : 5 },
-      { "monster" : "mon_zombie_predator", "freq" : 5, "cost_multiplier" : 10 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_zombie_predator", "freq" : 5, "cost_multiplier" : 10 }
     ]
   },{
     "type":"monstergroup",
@@ -1510,10 +1385,7 @@
       { "monster" : "mon_zombie_child", "freq" : 20, "cost_multiplier" : 1, "pack_size": [2,6] },
       { "monster" : "mon_zombie", "freq" : 20, "cost_multiplier" : 1, "pack_size": [2,6] },
       { "monster" : "mon_zombie_rot", "freq" : 10, "cost_multiplier" : 1, "pack_size": [1,5] },
-      { "monster" : "mon_beekeeper", "freq" : 10, "cost_multiplier" : 1, "pack_size": [1,5] },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_beekeeper", "freq" : 10, "cost_multiplier" : 1, "pack_size": [1,5] }
       ]
   },{
     "type":"monstergroup",
@@ -1533,20 +1405,14 @@
       { "monster" : "mon_zombie_shady", "freq" : 10, "cost_multiplier" : 4},
       { "monster" : "mon_zombie_shady", "freq" : 30, "cost_multiplier" : 15, "pack_size": [4,6]},
       { "monster" : "mon_zombie_necro", "freq" : 5, "cost_multiplier" : 25 },
-      { "monster" : "mon_zombie_master", "freq" : 1, "cost_multiplier" : 30 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+      { "monster" : "mon_zombie_master", "freq" : 1, "cost_multiplier" : 30 }
       ]
   },{
       "type":"monstergroup",
       "name" : "GROUP_CHURCH_BLANK",
       "default" : "mon_blank",
       "monsters" : [
-        { "monster" : "mon_blank", "freq" : 50, "cost_multiplier" : 0 },
-	{ "monster" : "hgaunt", "freq" : 2000, "cost_multiplier": 5, "pack_size": [12,16]},
-	{ "monster" : "geansetealer", "freq" : 300, "cost_multiplier" : 8, "pack_size" : [8,12]},
-	{ "monster" : "tyn_warrior", "freq" : 100, "cost_multiplier" : 14, "pack_size" : [1,2]}
+        { "monster" : "mon_blank", "freq" : 50, "cost_multiplier" : 0 }
       ]
   }
 ]

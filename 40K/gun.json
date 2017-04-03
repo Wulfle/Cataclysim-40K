@@ -5,7 +5,7 @@
     "name": "Godwin Pattern Bolter",
     "name_plural": "Godwin Pattern Bolters",
     "description": "A massive handheld rifle that fires rounds the size of beer cans.",
-    "weight": 20,
+    "weight": 2000,
     "volume": 4,
     "price": 6000000,
     "to_hit": -2,
@@ -30,7 +30,7 @@
 	"name": "Ceres-Pattern Bolt Pistol",
     "name_plural": "Ceres-Pattern Bolt Pistol",
     "description": "Considered a snub-nosed semi-auto machine gun by most sane indeviduals.",
-    "weight": 12,
+    "weight": 1200,
     "volume": 2,
     "price": 2000000,
     "to_hit": -1,
@@ -54,7 +54,7 @@
 	"name" : "MKIII-Pattern Storm Bolter",
 	"name_plural" : "MKIII-Pattern-Pattern Storm Bolters",
 	"description" : "A twin-barreled bolter with a blisteringly fast cyclic speed. You should probaly not use this outside of Power Armor.",
-	"weight" : 14,
+	"weight" : 1400,
 	"price" : 650000000,
 	"to_hit" : -3,
 	"bashing" : 14,
@@ -183,7 +183,7 @@
     "name": "Shoota",
     "name_plural": "shootas",
     "description": "A slap-dash, smashed-together weapon that, honestly, should not work. Bashed together with copous amount of alhchol and a hammer. Straingly enough, it seemes to accept any kind of magazing, of the calibre the weapon accepts.",
-    "weight": 18,
+    "weight": 1800,
     "volume": 5,
     "price": 18000,
     "to_hit": -4,
@@ -226,5 +226,36 @@
       [ "AUTO", "MOAR ZOGGIN' DAKKA!", 100 ]
     ],
     "techniques": [ "RAPID" ]
+	},
+	{
+    "id": "big_shoota",
+    "type": "GUN",
+    "name": "Big Shoota",
+    "name_plural": "Big shootas",
+    "description": "A big, twin-barreled monstrocity that, somehow, works. Probably though sheer force of will, it doesn't explode.",
+    "weight": 2800,
+    "volume": 8,
+    "price": 18000,
+    "to_hit": -6,
+    "bashing": 12,
+    "material": "steel",
+    "symbol": "(",
+    "color": "light_gray",
+    "ammo": "ork_dakka",
+    "skill" : "rifle",
+	"modes" : [
+		[ "DEFAULT" , "Ssmall DAKKA", 4],
+		[ "AUTO" , "DAKKADAKKADAKKA", 10]
+	],
+    "ranged_damage": 8,
+    "dispersion": 20,
+    "durability": 6,
+    "loudness": 220,
+    "reload": 200,
+    "barrel_length": 2,
+	"valid_mod_locations" : [ [ "bore", 1] ],
+    "magazines": [
+		[ "ork_dakka", [ "ob_30", "ob_50", "ob_100" ] ]
+		]
 	}
 ]
