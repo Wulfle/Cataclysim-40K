@@ -1,5 +1,5 @@
 [
-	{
+  {
     "id": "flack_helmet",
     "type": "ARMOR",
     "category": "armor",
@@ -14,15 +14,14 @@
     "symbol": "[",
     "color": "dark_green",
     "covers": [ "HEAD" ],
-    "coverage": 85,
+    "coverage": 90,
     "encumbrance": 18,
-    "storage": 6,
     "warmth": 18,
     "material_thickness": 8,
     "environmental_protection": 1,
-    "flags": [ "VARSIZE", "POCKETS", "STURDY", "WATER_FRIENDLY" , "OUTER" , "STURDY"]
-	},
-	{
+    "flags": [ "VARSIZE", "STURDY", "WATER_FRIENDLY" , "OUTER"]
+  },
+  {
     "id": "flack_armor",
     "type": "ARMOR",
     "category": "armor",
@@ -37,15 +36,15 @@
     "symbol": "[",
     "color": "dark_green",
     "covers": [ "TORSO", "ARMS" ],
-    "coverage": 85,
+    "coverage": 90,
     "encumbrance": 18,
     "storage": 6,
     "warmth": 18,
     "material_thickness": 10,
     "environmental_protection": 1,
-    "flags": [ "VARSIZE", "POCKETS", "STURDY", "WATER_FRIENDLY" , "BELTED" , "OUTER" , "STURDY"]
-	},
-	{
+    "flags": [ "VARSIZE", "POCKETS", "STURDY", "WATER_FRIENDLY" , "OUTER" , "STURDY"]
+  },
+  {
     "id": "ig_elbow_pads",
     "type": "ARMOR",
     "category": "armor",
@@ -63,9 +62,9 @@
     "coverage": 30,
     "material_thickness": 8,
     "flags": [ "WATER_FRIENDLY", "BELTED" , "STURDY" , "VARSIZE"]
-	},
-	{
-	"id": "ig_leg_pads",
+  },
+  {
+  "id": "ig_leg_pads",
     "type": "ARMOR",
     "category": "armor",
     "name": "pair of Imperial leg guards.",
@@ -82,5 +81,5 @@
     "coverage": 40,
     "material_thickness": 8,
     "flags": [ "WATER_FRIENDLY", "BELTED" , "STURDY" , "VARSIZE"]
-	}
+  }
 ]

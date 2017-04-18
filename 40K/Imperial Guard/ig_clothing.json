@@ -10,7 +10,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "green",
-    "covers": [ "TORSO" , "ARMS" , "LEGS"],
+    "covers": [ "TORSO", "ARMS", "LEGS"],
     "coverage": 90,
     "material_thickness": 2,
     "flags": [ "VARSIZE", "WATER_FRIENDLY", "SKINTIGHT" ]
@@ -36,7 +36,7 @@
     "warmth": 6,
     "material_thickness": 2,
     "environmental_protection": 1,
-    "flags": [ "VARSIZE", "STURDY"]
+    "flags": [ "VARSIZE", "STURDY", "FANCY"]
 	},
 	{
     "id": "comm_cloak",
@@ -59,6 +59,6 @@
     "warmth": 24,
     "material_thickness": 8,
     "environmental_protection": 1,
-    "flags": [ "VARSIZE", "POCKETS", "STURDY", "WATER_FRIENDLY" , "OUTER"]
+    "flags": [ "VARSIZE", "POCKETS", "STURDY", "WATER_FRIENDLY" , "OUTER", "FANCY"]
 	}
 ]
