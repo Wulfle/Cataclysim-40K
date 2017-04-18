@@ -1,0 +1,47 @@
+[
+  {
+    "id" : "ob_30",
+    "type" : "MAGAZINE",
+    "name" : "Orky 30-round magazine.",
+    "description" : "A...magazine might be too generous a description for this rough box, made of rusty sheets of steel and tin with '30 DAKKA' on the front and sides.)",
+    "weight" : 220,
+    "volume" : 3,
+    "price" : 65000,
+    "material" : "steel",
+    "symbol" : "#",
+    "color" : "light_gray",
+    "ammo_type" : "ork_dakka",
+    "capacity" : 30,
+    "reload_time" : 120
+  },
+  {
+    "id" : "ob_50",
+    "type" : "MAGAZINE",
+    "name" : "Orky 50-round magazine.",
+    "description" : "A metal box, made of rusty sheets of steel and tin with '50 DAKKA' on the front and sides.)",
+    "weight" : 280,
+    "volume" : 3.5,
+    "price" : 70000,
+    "material" : "steel",
+    "symbol" : "#",
+    "color" : "light_gray",
+    "ammo_type" : "ork_dakka",
+    "capacity" : 50,
+    "reload_time" : 160
+  },
+  {
+    "id" : "ob_100",
+    "type" : "MAGAZINE",
+    "name" : "Orky 100-round bucket.",
+    "description" : "Bacily a miniture bathtub filled with rough aproximations of amuniton. Somehow, the rounds make their way into the weapon.)",
+    "weight" : 280,
+    "volume" : 3.5,
+    "price" : 70000,
+    "material" : "steel",
+    "symbol" : "#",
+    "color" : "light_gray",
+    "ammo_type" : "ork_dakka",
+    "capacity" : 100,
+    "reload_time" : 160
+  }
+]

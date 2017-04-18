@@ -1,5 +1,5 @@
 [
-	{
+  {
     "id": "75bolt",
     "type": "AMMO",
     "name": "75mm bolt",
@@ -24,20 +24,20 @@
     "recoil": 750,
     "casing": "boltgun_casing",
     "effects": [ "COOKOFF", "MUZZLE_SMOKE", "SMOKE", "BEANBAG" , "EXPLOSION"],
-	"EXPLOSION" : {
-		"power" : 1000,
-		"range" : 2,
-		"distance_factor" : 0.5,
-		"fire" : false,
-		"shrapnel" : {
-			"count" : 1500,
-			"mass" : 400,
-			"recovery" : 10,
-			"drop" : "shrapnel"
-			}
-		}
-	},
-	{
+    "EXPLOSION" : {
+      "power" : 1000,
+      "range" : 2,
+      "distance_factor" : 0.5,
+      "fire" : false,
+      "shrapnel" : {
+        "count" : 1500,
+        "mass" : 400,
+        "recovery" : 10,
+        "drop" : "shrapnel"
+      }
+    }
+  },
+  {
     "id": "hellfire_bolt",
     "type": "AMMO",
     "name": "Hellfire bolt",
@@ -62,8 +62,8 @@
     "recoil": 750,
     "casing": "boltgun_casing",
     "effects": [ "COOKOFF", "MUZZLE_SMOKE", "ACIDBOMB" ]
-	},
-	{
+  },
+  {
     "id": "promethium",
     "type": "AMMO",
     "name": "promethium",
@@ -76,56 +76,35 @@
     "color": "red",
     "count": 100,
     "stack_size": 100,
-	"range" : 10,
-	"damage" : 45,
-	"pierce" : 8,
-	"dispersion" : 2,
-	"recoil" : 20,
+    "range" : 10,
+    "damage" : 45,
+    "pierce" : 8,
+    "dispersion" : 2,
+    "recoil" : 20,
     "ammo_type": "promethium",
     "effects": [ "COOKOFF" , "INCENDIARY" , "STREAM_BIG" , "NAPLAM" , "FLARE" , "SMOKE" , "FLAME" , "WIDE" ]
-	},
-	{
-	"type" : "AMMO",
-	"id" : "las",
-	"category" : "spare_parts",
-	"price" : 12000,
-	"name" : "las battery",
-	"symbol" : "=",
-	"color" : "yellow",
-	"description" : "A carton of charging units to recharge a Lasgun or Lascarbine's powerpack",
-	"material" : "iron",
-	"volume" : 2,
-	"weight" : 250,
-	"ammo_type" : "las",
-	"count" : 100,
-	"range" : 40,
-	"damage" : 50,
-	"pierce" : 10,
-	"dispersion" : 2,
-	"recoil" : 5,
-	"fuel": {
-		"energy": 1
-		}
-	},
-	{
-    "id": "ork_dakka",
-    "type": "AMMO",
-    "name": "dakka",
-    "description": "It's fuel for your orky shootas, loud and made out of random junk, made for a gun with a roughly inch-wide bore.  What marvel of weirdboy magic is this, that so much dakka fits in your backpack at all?",
-    "weight": 50,
-    "volume": 2,
-    "price": 3250,
-    "material": [ "iron", "powder" ],
-    "symbol": "=",
-    "color": "dark_gray",
-    "count": 250,
-    "stack_size": 100,
-    "ammo_type": "ork_dakka",
-    "range": 20,
-    "damage": 120,
-    "pierce": 20,
-    "dispersion": 60,
-    "recoil": 1400,
-    "effects": [ "COOKOFF", "NEVER_MISFIRES" ]
-	}
+  },
+  {
+    "type" : "AMMO",
+    "id" : "las",
+    "category" : "spare_parts",
+    "price" : 12000,
+    "name" : "las battery",
+    "symbol" : "=",
+    "color" : "yellow",
+    "description" : "A carton of charging units to recharge a Lasgun or Lascarbine's powerpack",
+    "material" : "iron",
+    "volume" : 2,
+    "weight" : 250,
+    "ammo_type" : "las",
+    "count" : 100,
+    "range" : 40,
+    "damage" : 50,
+    "pierce" : 10,
+    "dispersion" : 2,
+    "recoil" : 5,
+    "fuel": {
+      "energy": 1
+    }
+  }
 ]
