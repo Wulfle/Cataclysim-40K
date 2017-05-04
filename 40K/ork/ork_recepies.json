@@ -1,20 +1,20 @@
 [
   {
-    "type" : "recipe",
-    "result" : "shoota",
-    "category" : "CC_WEAPON",
-    "subcategory" : "CSC_WEAPON_RANGED",
-    "skill_used" : "mechanics",
-    "difficulty" : 3,
-    "time" : 5000,
-    "book_learn" : [ [ "ork_book", 1 ] ],
-    "reversible" : false,
-    "autolearn" : false,
-    "qualities" : [
-      {"id" : "CUT", "level": 1},
-      {"id" : "HAMMER", "level": 2}
+    "result": "ork_shoota",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "mechanics",
+    "difficulty": 3,
+    "time": 5000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [ [ "ork_book", 1 ] ],
+    "qualities": [
+      { "id": "CUT", "level": 1 },
+      { "id": "HAMMER", "level": 2 }
     ],
-    "components" : [
+    "components": [
       [ [ "adhesive", 2, "LIST" ] ],
       [ [ "sheet_metal", 2 ] ],
       [ [ "pipe", 2 ] ],
@@ -28,9 +28,9 @@
     "subcategory": "CSC_AMMO_RIFLE",
     "skill_used": "fabrication",
     "time": 700,
-    "book_learn" : [ [ "ork_book", 1 ] ],
     "batch_time_factors": [ 50, 10 ],
     "autolearn": true,
+    "book_learn": [ [ "ork_book", 1 ] ],
     "charges": 1,
     "qualities": [
       { "id": "CUT", "level": 1 },
@@ -44,24 +44,42 @@
     ]
   },
   {
-    "type" : "recipe",
-    "result" : "ob_100",
-    "category" : "CC_WEAPON",
-    "subcategory" : "CSC_WEAPON_MAGAZINES",
-    "skill_used" : "mechanics",
-    "difficulty" : 1,
-    "time" : 2000,
-    "book_learn" : [ [ "ork_book", 1 ] ],
-    "reversible" : false,
-    "autolearn" : false,
-    "qualities" : [
-      {"id" : "CUT", "level": 1},
-      {"id" : "HAMMER", "level": 2}
+    "result": "ork_mag_dakka_100",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "skill_used": "mechanics",
+    "difficulty": 1,
+    "time": 2000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [ [ "ork_book", 1 ] ],
+    "qualities": [
+      { "id": "CUT", "level": 1 },
+      { "id": "HAMMER", "level": 2 }
     ],
-    "components" : [
+    "components": [
       [ [ "bucket", 1 ] ],
       [ [ "cordage", 1, "LIST" ] ],
-      [ [ "hard_liquor", 1, "LIST" ] ],
+      [ [ "hard_liquor", 1, "LIST" ] ]
     ]
   },
+  {
+    "result": "ork_red_tape",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "skill_used": "mechanics",
+    "difficulty": 1,
+    "time": 2000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [ [ "ork_book", 1 ] ],
+    "tools": [ [ [ "paint_brush", -1 ] ] ],
+    "components": [
+      [ [ "r_paint", 20 ], [ "blood", 8 ] ],
+      [ [ "duct_tape", 20 ] ],
+      [ [ "hard_liquor", 1, "LIST" ] ]
+    ]
+  }
 ]

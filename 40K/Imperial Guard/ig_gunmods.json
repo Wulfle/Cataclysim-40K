@@ -2,7 +2,7 @@
   {
     "id": "purity_seal",
     "type": "GUNMOD",
-    "name": "Purity seal",
+    "name": "purity seal",
     "description": "A large wax seal with a strip of paper, covered in holy texts, hainging from it.",
     "weight": 120,
     "price": 25000,
@@ -15,6 +15,22 @@
     "dispersion_modifier": -25,
     "loudness_modifier": -2,
     "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ], [ "gun", 1 ] ],
+    "flags": [ "NEVER_JAMS", "RAPIDFIRE" ]
+  },
+  {
+    "id": "ig_machine_spirit",
+    "type": "GUNMOD",
+    "name": "machine spirit",
+    "description": "DUMMY",
+    "weight": 1,
+    "price": 0,
+    "symbol": "s",
+    "color": "red",
+    "location": "accessories",
+    "mod_targets": [ "smg", "rifle", "pistol", "shotgun", "launcher" ],
+    "install_time": 1,
+    "dispersion_modifier": -50,
+    "min_skills": [ [ "gun", 5 ] ],
     "flags": [ "NEVER_JAMS", "RAPIDFIRE" ]
   }
 ]

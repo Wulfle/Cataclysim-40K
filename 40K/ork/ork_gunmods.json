@@ -40,5 +40,25 @@
     "ammo_modifier": "223",
     "min_skills": [ [ "weapon", 2 ], [ "mechanics", 1 ] ],
     "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ]
+  },
+  {
+    "id": "ork_red_tape",
+    "type": "GUNMOD",
+    "name": "red tape",
+    "description": "A lengthy piece of duct tape, crudely painted red, to be wrapped around a firearm. Is this supposed to make your gun... faster? Well, it's definitely bulkier.",
+    "weight": 120,
+    "volume": 1,
+    "integral_volume": 1,
+    "price": 0,
+    "material": [ "plastic" ],
+    "symbol": "=",
+    "color": "red",
+    "location": "accessories",
+    "mod_targets": [ "smg", "rifle", "pistol", "shotgun" ],
+    "install_time": 6000,
+    "handling_modifier": -2,
+    "mode_modifier": [ [ "AUTO", "DAKKADAKKADAKKA", 10 ] ],
+    "min_skills": [ [ "gun", 1 ] ],
+    "flags": [ "RAPIDFIRE" ]
   }
 ]

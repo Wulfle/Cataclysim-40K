@@ -1,9 +1,10 @@
 [
   {
-    "id": "shoota",
+    "id": "ork_shoota",
     "type": "GUN",
     "name": "Shoota",
     "name_plural": "shootas",
+    "//": "I feel that glueing a stupid number of gun mods to the Shoota would be a very ork thing to do.",
     "description": "A slap-dash, smashed-together weapon that, honestly, should not work. Bashed together with copous amount of alhchol and a hammer. Straingly enough, it seemes to accept any kind of magazing, of the calibre the weapon accepts.",
     "weight": 1800,
     "volume": 5,
@@ -14,35 +15,36 @@
     "symbol": "(",
     "color": "light_gray",
     "ammo": "ork_dakka",
-    "skill" : "rifle",
-    "modes" : [
-      [ "DEFAULT" , "Single DAKKA", 1],
-      [ "BURST" , "Tripple DAKKA", 3],
-      [ "AUTO" , "DAKKADAKKADAKKA", 10]
-    ],
+    "skill": "rifle",
     "ranged_damage": 6,
     "dispersion": 14,
     "durability": 6,
     "loudness": 200,
     "reload": 200,
     "barrel_length": 2,
-    "valid_mod_locations": [ [ "accessories", 10 ], [ "barrel", 1 ], [ "bore", 1 ], [ "grip", 1 ], [ "mechanism", 5 ], [ "magazine", 1 ], [ "muzzle", 1 ], [ "rail", 3 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 5 ] ],
+    "modes": [
+      [ "DEFAULT", "Single DAKKA", 1 ],
+      [ "BURST", "Tripple DAKKA", 3 ],
+      [ "AUTO", "DAKKADAKKADAKKA", 10 ]
+    ],
+    "valid_mod_locations": [ [ "accessories", 10 ], [ "barrel", 1 ], [ "bore", 1 ], [ "grip", 1 ], [ "mechanism", 5 ], [ "magazine", 1 ], [ "muzzle", 1 ], [ "rail", 5 ], [ "sights", 2 ], [ "stock", 1 ], [ "underbarrel", 5 ] ],
     "magazines": [
-      [ "ork_dakka", [ "ob_30", "ob_50", "ob_100" ] ]
+      [ "ork_dakka", [ "ork_mag_dakka_30", "ork_mag_dakka_50", "ork_mag_dakka_100" ] ],
+      [ "223", [ "ork_mag_223_60", "ork_mag_223_100", "ork_mag_223_200" ] ]
     ]
   },
   {
     "id": "ork_shoota_red",
-    "copy-from": "shoota",
-    "type": "TOOL",
+    "copy-from": "ork_shoota",
+    "type": "GUN",
     "name": "red shoota",
+    "//": "Ohgod make the dakka stahp plz.",
     "description": "Da red ones go fasta!  Oi 'umie, dey mean da vee-heckles wen dey saiz dat!  Mebbe da red paint on da barrel will make da bullets go fasta?",
     "color": "red",
     "range": 30,
     "ranged_damage": 25,
     "dispersion": 750,
     "reload": 200,
-    "//": "Ohgod make the dakka stahp plz.",
     "modes": [
       [ "DEFAULT", "moar dakka", 50 ],
       [ "AUTO", "MOAR ZOGGIN' DAKKA!", 100 ]
@@ -50,7 +52,7 @@
     "techniques": [ "RAPID" ]
   },
   {
-    "id": "big_shoota",
+    "id": "ork_big_shoota",
     "type": "GUN",
     "name": "Big Shoota",
     "name_plural": "Big shootas",
@@ -64,20 +66,22 @@
     "symbol": "(",
     "color": "light_gray",
     "ammo": "ork_dakka",
-    "skill" : "rifle",
-    "modes" : [
-      [ "DEFAULT" , "Ssmall DAKKA", 4],
-      [ "AUTO" , "DAKKADAKKADAKKA", 10]
-    ],
+    "skill": "rifle",
     "ranged_damage": 8,
     "dispersion": 20,
     "durability": 6,
     "loudness": 220,
     "reload": 200,
     "barrel_length": 2,
-    "valid_mod_locations": [ [ "accessories", 10 ], [ "barrel", 1 ], [ "bore", 1 ], [ "grip", 1 ], [ "mechanism", 5 ], [ "magazine", 1 ], [ "muzzle", 1 ], [ "rail", 3 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 5 ] ],
+    "modes": [
+      [ "DEFAULT", "Double DAKKA", 1 ],
+      [ "BURST", "Quad DAKKA", 4 ],
+      [ "AUTO", "DAKKADAKKADAKKA", 10 ]
+    ],
+    "valid_mod_locations": [ [ "accessories", 10 ], [ "barrel", 1 ], [ "bore", 1 ], [ "grip", 1 ], [ "mechanism", 5 ], [ "magazine", 1 ], [ "muzzle", 2 ], [ "rail", 5 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 5 ] ],
     "magazines": [
-      [ "ork_dakka", [ "ob_30", "ob_50", "ob_100" ] ]
+      [ "ork_dakka", [ "ork_mag_dakka_30", "ork_mag_dakka_50", "ork_mag_dakka_100" ] ],
+      [ "223", [ "ork_mag_223_60", "ork_mag_223_100", "ork_mag_223_200" ] ]
     ]
   }
 ]
