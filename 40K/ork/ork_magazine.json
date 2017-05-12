@@ -88,5 +88,50 @@
     "ammo_type": "223",
     "capacity": 200,
     "reload_time": 160
+  },
+  {
+    "id": "ork_mag_50_30",
+    "type": "MAGAZINE",
+    "name": "Orky .50 30-round magazine.",
+    "description": "A...magazine might be too generous a description for this rough box, made of rusty sheets of steel and tin with '30 DAKKA' on the front and sides.)",
+    "weight": 220,
+    "volume": 3,
+    "price": 65000,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "50",
+    "capacity": 60,
+    "reload_time": 120
+  },
+  {
+    "id": "ork_mag_50_50",
+    "type": "MAGAZINE",
+    "name": "Orky .50 50-round magazine.",
+    "description": "A metal box, made of rusty sheets of steel and tin with '50 DAKKA' on the front and sides.)",
+    "weight": 280,
+    "volume": 3.5,
+    "price": 70000,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "50",
+    "capacity": 100,
+    "reload_time": 160
+  },
+  {
+    "id": "ork_mag_223_100",
+    "type": "MAGAZINE",
+    "name": "Orky .223 100-round bucket.",
+    "description": "Bacily a miniture bathtub filled with rough aproximations of amuniton. Somehow, the rounds make their way into the weapon.)",
+    "weight": 280,
+    "volume": 3.5,
+    "price": 70000,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "50",
+    "capacity": 200,
+    "reload_time": 160
   }
 ]
