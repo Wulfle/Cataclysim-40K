@@ -78,7 +78,7 @@
     "material": [ "steel", "cotton", "kevlar" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "ARMS" ],
+    "covers": [ "LEGS" ],
     "coverage": 40,
     "material_thickness": 8,
     "flags": [ "WATER_FRIENDLY", "BELTED" , "STURDY" , "VARSIZE"]
